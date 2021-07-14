@@ -1,0 +1,116 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<title> Pretraživanje muzeja </title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<link rel="stylesheet" type="text/css" href="dizajn.css">
+
+</head>
+
+<body>
+	<div class="zaglavlje">
+		<h1 class="naslov"><b>Pretraživanje muzeja</b></h1>
+		<a href="index.html"><img class="skulptura" src="slike/skulptura.png" alt="slika" width="200" height="200"></a>
+	</div>
+	
+	<!--   ............................................................................................ -->
+	
+	<div class="navigacija">
+		<ul class="lista">
+			
+					<li class="izbor"><a class="link" href="index.html" target="_blank"><b>POČETNA STRANICA</b></a></li> 	
+					
+					<li class="izbor"><a class="link" href="obrazac.html" target="_blank"><b>PRETRAŽIVANJE MUZEJA</b></a></li> 
+
+					<li class="izbor"><a class="link" href="podaci.xml" target="_blank"><b> PODACI </b></a> </li>
+						
+					<li class="izbor"><a class="link" href="http://www.fer.unizg.hr/predmet/otvrac" target="_blank"><b>STRANICA PREDMETA OR </b></a></li> 
+					
+					<li class="izbor"><a class="link"  href="http://www.fer.hr" target="_blank"><b>SJEDIŠTE FER-a</b></a></li> 		
+					
+					<li class="izbor"><a class="link" href="mailto:@fer.hr" target="_blank"><b>EMAIL AUTORA</b></a></li>
+					
+		</ul>
+	</div>
+	
+	<!--   ............................................................................................ -->
+
+	<div class="tijelo">
+		<form action="pretraga.php" method="get" name="pretraga">
+		<table class="obrazac">
+		<tr><th class="obrazac" colspan="3"> Pretraživanje </th></tr>
+		<tr>
+			<td class="obrazac"> Ime: </td> <td><input type="text" name="ime"></td>
+		</tr>
+		
+		<tr>
+			<td class="obrazac"> Osnovan prije(godine):</td> <td><input type="text" name="god_osnivanja"></td>
+		</tr>
+		
+		<tr>
+			<td class="obrazac"> Minimalno posjeta godišnje(2019): </td> <td><input type="text" name="posjeta_god"></td>
+		</tr>
+		<tr>
+			<td class="obrazac"> Minimalno predmeta: </td> <td><input type="text" name="predmeti"></td>
+		</tr>
+		
+		<tr>
+			<td class="obrazac"> Država: </td> <td><input type="text" name="drzava"></td>
+		</tr>
+		
+		<tr>
+			<td class="obrazac"> Grad: </td> <td><input type="text" name="grad"></td>
+		</tr>
+		
+		<tr>
+			<td class="obrazac">Kontinent:</td>
+			<td colspan="2"> <select name="kontinent" multiple>
+						<option value="azija"  >Azija</option>
+						<option value="afrika"  >Afrika</option>
+						<option value="sjeverna amerika"  >Sjeverna Amerika</option>
+						<option value="juzna amerika"  >Južna Amerika</option>
+						<option value="europa"  >Europa</option>
+						<option value="australija"  >Australija</option>
+
+			</td>
+		
+		</tr>
+		
+		
+		<tr>
+			<td class="obrazac"> Tip:</td>
+			<td colspan="2"> 
+				<input type="checkbox" name="tip1" value="umjetnicki">Umjetnički
+				<br>
+				<input type="checkbox" name="tip" value="prirodoslovni">Povijesni
+				<br>
+				<input type="checkbox" name="tip" value="prirodoslovni">Prirodoslovni
+				<br>
+				<input type="checkbox" name="tip" value="specijalizirani">Specijalizirani</td>
+		</tr>
+		
+		
+		
+		
+		
+		<tr>
+			<td></td>
+			<td class="gumb" colspan="2"> <button type="submit" value="submit">Submit</button>
+			<br>
+			<br>
+							 <button type="reset" value="reset">Reset</button>
+			</td>
+		</tr>
+		
+		</table>
+		</form>
+	</div>
+	
+	<!--   ............................................................................................ -->
+	
+	<div class=podnozje>
+		<p class=podnozje> Autor: Edi Šincek </p>
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<!DOCTYPE muzeji SYSTEM "gramatika.dtd">
+<?xml-stylesheet type="text/xsl" href="pretvorba.xsl" ?>
+
+<muzeji>
+
+<muzej id="Louvre">
+	<ime>Louvre</ime>
+	<god_osnivanja>1793</god_osnivanja>
+	<posjeta_god>9600000</posjeta_god>
+	<predmeti>615797</predmeti>
+	<kontakt vrsta="website">www.louvre.fr</kontakt>
+	<kontakt vrsta="email">info@louvre.fr</kontakt>
+	<lokacija>
+		<kontinent>Europa</kontinent>
+		<drzava>Francuska</drzava>
+		<grad>Pariz</grad>
+	</lokacija>
+	<tip umjetnicki="da" povijesni="ne" prirodoslovni="ne" specijalizirani="ne"></tip>
+</muzej>
+
+<muzej id="National_Museum_of_China">
+	<ime>Kineski nacionalni muzej</ime>
+	<god_osnivanja>2003</god_osnivanja>
+	<posjeta_god>7390000</posjeta_god>
+	<predmeti>1300000</predmeti>
+	<kontakt vrsta="website">en.chnmuseum.cn</kontakt>
+	<lokacija>
+		<kontinent>Azija</kontinent>
+		<drzava>Kina</drzava>
+		<grad>Peking</grad>
+	</lokacija>
+	<tip umjetnicki="da" povijesni="da" prirodoslovni="ne" specijalizirani="ne"></tip>
+</muzej>
+
+<muzej id="Vatican_Museums">
+	<ime>Vatikanski muzej</ime>
+	<god_osnivanja>1506</god_osnivanja>
+	<posjeta_god>6800000</posjeta_god>
+	<predmeti>70000</predmeti>
+	<kontakt vrsta="website">museivaticani.va</kontakt>
+	<lokacija>
+		<kontinent>Europa</kontinent>
+		<drzava>Vatikan</drzava>
+		<grad>Vatikan</grad>
+	</lokacija>
+	<tip umjetnicki="da" povijesni="ne" prirodoslovni="ne" specijalizirani="ne"></tip>
+</muzej>
+
+<muzej id="Metropolitan_Museum_of_Art">
+	<ime>Muzej umjetnosti Metropolitan</ime>
+	<god_osnivanja>1870</god_osnivanja>
+	<posjeta_god>6470000</posjeta_god>
+	<predmeti>2000000</predmeti>
+	<kontakt vrsta="website">www.metmuseum.org</kontakt>
+	<lokacija>
+		<kontinent>Sjeverna Amerika</kontinent>
+		<drzava>Sjedinjene Američke Države</drzava>
+		<grad>New York City</grad>
+	</lokacija>
+	<tip umjetnicki="da" povijesni="ne" prirodoslovni="ne" specijalizirani="ne"></tip>
+</muzej>
+
+<muzej id="British_Museum">
+	<ime>Britanski muzej</ime>
+	<god_osnivanja>1753</god_osnivanja>
+	<posjeta_god>6240000</posjeta_god>
+	<predmeti>8000000</predmeti>
+	<kontakt vrsta="website">www.britishmuseum.org</kontakt>
+	<lokacija>
+		<kontinent>Europa</kontinent>
+		<drzava>Engleska</drzava>
+		<grad>London</grad>
+	</lokacija>
+	<tip umjetnicki="da" povijesni="da" prirodoslovni="ne" specijalizirani="ne"></tip>
+</muzej>
+
+<muzej id="Tate_Modern">
+	<ime>Tate Modern</ime>
+	<god_osnivanja>2000</god_osnivanja>
+	<posjeta_god>6000000</posjeta_god>
+	<predmeti>72000</predmeti>
+	<kontakt vrsta="website">tate.org.uk/modern</kontakt>
+	<lokacija>
+		<kontinent>Europa</kontinent>
+		<drzava>Engleska</drzava>
+		<grad>London</grad>
+	</lokacija>
+	<tip umjetnicki="da" povijesni="ne" prirodoslovni="ne" specijalizirani="ne"></tip>
+</muzej>
+
+<muzej id="National_Gallery">
+	<ime>Nacionalna galerija</ime>
+	<god_osnivanja>1824</god_osnivanja>
+	<posjeta_god>6000000</posjeta_god>
+	<predmeti>2300</predmeti>
+	<kontakt vrsta="website">www.nationalgallery.org.uk</kontakt>
+	<kontakt vrsta="email">information@ng-london.org.uk</kontakt>
+	<lokacija>
+		<kontinent>Europa</kontinent>
+		<drzava>Engleska</drzava>
+		<grad>London</grad>
+	</lokacija>
+	<tip umjetnicki="da" povijesni="ne" prirodoslovni="ne" specijalizirani="ne"></tip>
+</muzej>
+
+<muzej id="Natural_History_Museum,_London">
+	<ime>Prirodoslovni muzej</ime>
+	<god_osnivanja>1881</god_osnivanja>
+	<posjeta_god>5400000</posjeta_god>
+	<predmeti>70000000</predmeti>
+	<kontakt vrsta="website">www.nhm.ac.uk</kontakt>
+	<lokacija>
+		<kontinent>Europa</kontinent>
+		<drzava>Engleska</drzava>
+		<grad>London</grad>
+	</lokacija>
+	<tip umjetnicki="ne" povijesni="da" prirodoslovni="da" specijalizirani="ne"></tip>
+</muzej>
+
+<muzej id="American_Museum_of_Natural_History">
+	<ime>Američki prirodoslovni muzej</ime>
+	<god_osnivanja>1869</god_osnivanja>
+	<posjeta_god>5000000</posjeta_god>
+	<predmeti>34000000</predmeti>
+	<kontakt vrsta="website">www.amnh.org</kontakt>
+	<kontakt vrsta="email">communications@amnh.org</kontakt>
+	<lokacija>
+		<kontinent>Sjeverna Amerika</kontinent>
+		<drzava>Sjedinjene Američke Države</drzava>
+		<grad>New York City</grad>
+	</lokacija>
+	<tip umjetnicki="ne" povijesni="da" prirodoslovni="da" specijalizirani="ne"></tip>
+</muzej>
+
+<muzej id="Hermitage_Museum">
+	<ime>Ermitaž</ime>
+	<god_osnivanja>1764</god_osnivanja>
+	<posjeta_god>4900000</posjeta_god>
+	<predmeti>3000000</predmeti>
+	<kontakt vrsta="website">hermitagemuseum.org</kontakt>
+	<kontakt vrsta="email">chancery@hermitage.ru</kontakt>
+	<lokacija>
+		<kontinent>Europa</kontinent>
+		<drzava>Rusija</drzava>
+		<grad>Saint Petersburg</grad>
+	</lokacija>
+	<tip umjetnicki="da" povijesni="ne" prirodoslovni="ne" specijalizirani="ne"></tip>
+</muzej>
+
+<muzej id="Shanghai_Science_and_Technology_Museum">
+	<ime>Kineski muzej znanosti i tehnologije</ime>
+	<god_osnivanja>2001</god_osnivanja>
+	<posjeta_god>4820000</posjeta_god>
+	<predmeti>500000</predmeti>
+	<kontakt vrsta="website">www.sstm.org.cn</kontakt>
+	<lokacija>
+		<kontinent>Azija</kontinent>
+		<drzava>Kina</drzava>
+		<grad>Shanghai</grad>
+	</lokacija>
+	<tip umjetnicki="ne" povijesni="ne" prirodoslovni="da" specijalizirani="da"></tip>
+</muzej>
+
+<muzej id="Museo_Nacional_Centro_de_Arte_Reina_Sofía">
+	<ime>Muzej kraljice Sofije</ime>
+	<god_osnivanja>1992</god_osnivanja>
+	<posjeta_god>4425000</posjeta_god>
+	<predmeti>20000</predmeti>
+	<kontakt vrsta="website">www.museoreinasofia.es</kontakt>
+	<kontakt vrsta="email">info@museoreinasofia.es</kontakt>
+	<lokacija>
+		<kontinent>Europa</kontinent>
+		<drzava>Španjolska</drzava>
+		<grad>Madrid</grad>
+	</lokacija>
+	<tip umjetnicki="da" povijesni="da" prirodoslovni="ne" specijalizirani="ne"></tip>
+</muzej>
+
+<muzej id="Museo_del_Prado">
+	<ime>Muzej Prado</ime>
+	<god_osnivanja>1819</god_osnivanja>
+	<posjeta_god>950000</posjeta_god>
+	<predmeti>17000</predmeti>
+	<lokacija>
+		<kontinent>Europa</kontinent>
+		<drzava>Španjolska</drzava>
+		<grad>Madrid</grad>
+	</lokacija>
+	<tip umjetnicki="da" povijesni="ne" prirodoslovni="ne" specijalizirani="ne"></tip>
+</muzej>
+
+<muzej id="National_Museum_of_Natural_History">
+	<ime>Nacionalni prirodoslovni muzej</ime>
+	<god_osnivanja>1910</god_osnivanja>
+	<posjeta_god>4200000</posjeta_god>
+	<predmeti>145000000</predmeti>
+	<kontakt vrsta="website">naturalhistory.si.edu</kontakt>
+	<kontakt vrsta="email">naturalexperience@si.edu</kontakt>
+	<lokacija>
+		<kontinent>Sjeverna Amerika</kontinent>
+		<drzava>Sjedinjene Američke Države</drzava>
+		<grad>Washington D.C.</grad>
+	</lokacija>
+	<tip umjetnicki="ne" povijesni="ne" prirodoslovni="da" specijalizirani="ne"></tip>
+</muzej>
+
+<muzej id="Nanjing_Museum">
+	<ime>Muzej Nanjinga</ime>
+	<god_osnivanja>1933</god_osnivanja>
+	<posjeta_god>4169000</posjeta_god>
+	<predmeti>400000</predmeti>
+	<kontakt vrsta="website">www.njmuseum.com</kontakt>
+	<lokacija>
+		<kontinent>Azija</kontinent>
+		<drzava>Kina</drzava>
+		<grad>Nanjing</grad>
+	</lokacija>
+	<tip umjetnicki="da" povijesni="da" prirodoslovni="da" specijalizirani="da"></tip>
+</muzej>
+
+
+
+
+</muzeji>

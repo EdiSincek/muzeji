@@ -1,0 +1,21 @@
+<!ELEMENT muzeji (muzej*)>
+
+<!ELEMENT muzej (ime,god_osnivanja,posjeta_god,predmeti,kontakt*,lokacija,tip)>
+	<!ATTLIST muzej id ID #REQUIRED>
+
+<!ELEMENT ime (#PCDATA)>
+<!ELEMENT god_osnivanja (#PCDATA)>
+<!ELEMENT posjeta_god (#PCDATA)>
+<!ELEMENT predmeti (#PCDATA)>
+<!ELEMENT kontakt (#PCDATA)>
+	<!ATTLIST kontakt vrsta (website|email) #REQUIRED>
+<!ELEMENT lokacija (kontinent, drzava, grad)>
+	<!ELEMENT kontinent (#PCDATA)>
+	<!ELEMENT drzava (#PCDATA)>
+	<!ELEMENT grad (#PCDATA)>
+<!ELEMENT tip ANY>
+	<!ATTLIST tip umjetnicki (da|ne) #REQUIRED>
+	<!ATTLIST tip povijesni (da|ne) #REQUIRED>
+	<!ATTLIST tip prirodoslovni (da|ne) #REQUIRED>
+	<!ATTLIST tip specijalizirani (da|ne) #REQUIRED>
+	
