@@ -1,2 +1,2 @@
-# muzeji
+# Za faks
 HTML,PHP,CSS,DTD,XML,XSL,JS
